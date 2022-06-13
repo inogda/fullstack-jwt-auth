@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html, body {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.15px;
+}
+
+body {
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 24px;
+}
+
+/* Utility */
+.none {
+    display: none !important;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+/* Grid */
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    padding: 0px 12px;
+}
+
+.a-btn, a.a-btn {
+    display: inline-block;
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+.a-btn:hover, a.a-btn:hover {
+    opacity: 0.8;
+}
+
+.a-btn-active {
+    color: #FFFFFF;
+}
+
+.a-btn-disable {
+    background-color: #B4B4B4;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+/* ниже исправляем инпут при вставке*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: inherit;
+    -webkit-box-shadow: 0 0 0px 1000px #e8e8e8 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
