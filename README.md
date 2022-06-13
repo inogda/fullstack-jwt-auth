@@ -1,3 +1,2 @@
-### Подписывайся на TeleGram канал - https://t.me/ulbi_tv
 ##
-### PDF версия урока здесь - https://www.patreon.com/ulbitv
+### PDF версия для тестирования на локальном сервере и MongoDB
